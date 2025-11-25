@@ -28,6 +28,11 @@ spring:
           predicates:
             - Path=/auth/**
 
+api:
+  security:
+    token:
+      secret: minha-chave-super-secreta-de-32-caracteres-ou-mais
+
 eureka:
   client:
     serviceUrl:
